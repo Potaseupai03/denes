@@ -17,8 +17,7 @@ body {
 header {
     text-align: center;
     padding: 1.5em 0;
-    background: linear-gradient(90deg, #4CAF50, #2196F3, #FF4B3E);
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 header h1 {
@@ -51,7 +50,7 @@ main {
 }
 
 .icon img {
-    width: 80px;
+    width: 100px;
     height: auto;
     border-radius: 50%;
     transition: box-shadow 0.3s ease, transform 0.3s ease;
@@ -60,6 +59,11 @@ main {
 /* Efeito ao passar o mouse */
 .icon.playstation img:hover {
     box-shadow: 0 4px 15px rgba(0, 0, 139, 0.7);
+    transform: scale(1.1);
+}
+
+.icon.xbox img:hover {
+    box-shadow: 0 4px 15px rgba(0, 138, 7, 0.7);
     transform: scale(1.1);
 }
 
